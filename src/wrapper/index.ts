@@ -1,2 +1,4 @@
 import AppWrap from './AppWrap';
-export { AppWrap };
+import MotionWrap from './MotionWrap';
+
+export { AppWrap, MotionWrap };
