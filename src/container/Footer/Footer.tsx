@@ -43,14 +43,14 @@ function Footer() {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
-            hello@micael.com
+          <a href="mailto:johnyxuq@gmail.com" className="p-text">
+            johnyxuq@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">
-            +1 (123) 456-7890
+          <a href="tel:+61 460-297-787" className="p-text">
+            +61 460-297-787
           </a>
         </div>
       </div>
@@ -82,7 +82,7 @@ function Footer() {
               placeholder="Your Message"
               value={message}
               name="message"
-              // onChange={handleChangeInput}
+              onChange={handleChangeInput}
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>
@@ -98,4 +98,4 @@ function Footer() {
   );
 }
 
-export default AppWrap(MotionWrap(Footer, 'app__footer'), 'contact', 'app__whitebg');
+export default AppWrap(MotionWrap(Footer, 'app__footer'), 'contact', 'app__primarybg');
