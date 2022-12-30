@@ -17,12 +17,14 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import aws from '../assets/aws.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
 export default {
+  aws,
   email,
   mobile,
   api,
