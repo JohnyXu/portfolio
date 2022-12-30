@@ -59,18 +59,18 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tip
-                      id="my-anchor-element"
+                      id={work.name}
                       data-for={work.name}
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </motion.div>
                     <Tooltip
-                      anchorId="my-anchor-element"
+                      anchorId={work.name}
                       id={work.name}
                       content={work.desc}
                       className="skills-tooltip"
-                    ></Tooltip>
+                    />
                   </div>
                 ))}
               </motion.div>
