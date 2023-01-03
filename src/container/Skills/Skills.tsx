@@ -13,7 +13,7 @@ const Skills = () => {
   const [skills, setSkills] = useState<ISkills[]>([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+    const query = '*[_type == "experiences"] | order(year asc)';
     const skillsQuery = '*[_type == "skills"]';
 
     client.fetch(query).then((data) => {

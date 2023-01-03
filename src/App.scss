@@ -3,6 +3,12 @@
   font-family: var(--font-base);
 }
 
+.noscroll {
+  height: 100vh;
+  overflow-y: hidden;
+  padding-right: 15px;
+}
+
 .app__whitebg {
   background-color: var(--white-color);
 }
